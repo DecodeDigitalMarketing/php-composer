@@ -1,16 +1,8 @@
 PHP Composer for Decode Projects
 ===
 
-This is an extension of PHP composer with some needed modifications to run
-Drush commands successfully.
-
-## Modifications
-The *mysql-client* package is installed per Drush requirement.
-
-### PATH Modification
-```bash
-PATH="/app/vendor/bin:${PATH}"
-```
+This is an extension of PHP composer with some added php extensions for Drupal
+sites and other large PHP applications.
 
 ### Included PHP Extensions
 * GD
