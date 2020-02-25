@@ -1,7 +1,7 @@
 FROM composer
 
 # Add common extensions
-RUN apk add --update --no-cache nss libpng libzip icu bzip2
+RUN apk add --update --no-cache rsync nss libpng libzip icu bzip2
 RUN apk add --update --no-cache --virtual .deps \
 	libpng-dev libzip-dev icu-dev bzip2-dev; \
 	\
