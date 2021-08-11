@@ -11,4 +11,4 @@ sites and other large PHP applications.
 * PDO_mysql
 
 ## How to use
-Check back later.
+Check back later!
